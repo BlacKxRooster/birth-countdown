@@ -1,0 +1,94 @@
+main {
+  background-color: lightcoral;
+  margin: auto;
+  height: 1000px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+ font-size: 60px;
+ text-decoration: underline;
+}
+
+h2 {
+  text-decoration: underline;
+}
+
+#text-center {
+  text-align: center;
+}
+
+/* ultrasound pics */
+
+
+/* slideshow */
+
+.slideshow {
+  height: 50px;
+  width: 50px;
+}
+
+[data-component="slideshow"] .slide {
+  display: none;
+}
+
+[data-component="slideshow"] .slide.active {
+  display: block;
+}
+
+/* For the countdown */
+#clockdiv {
+  font-family: sans-serif;
+  color: #fff;
+  display: inline-block;
+  font-weight: 100;
+  text-align: center;
+  font-size: 30px;
+}
+
+#clockdiv > div {
+  padding: 10px;
+  border-radius: 3px;
+  background: lightcoral;
+  display: inline-block;
+}
+
+#clockdiv div > span {
+  padding: 15px;
+  border-radius: 3px;
+  background: lightpink;
+  display: inline-block;
+  text-align: center;
+}
+
+
+.smalltext {
+  padding-top: 5px;
+  font-size: 16px;
+  color: black;
+}
+
+/* end countdown */
+
+ul, .heading-list, li {
+  list-style: none;
+  display: inline;
+  padding-inline: 15px;
+}
+
+
+/* Social Media area */
+
+.fa-facebook {
+  /* background: #3B5998; */
+  color: #3B5998;
+}
+
+.fa {
+  padding: 20px;
+  border-radius: 50%;
+  font-size: 30px;
+  width: 40px;
+  text-align: center;
+  text-decoration: none;
+}
