@@ -5,6 +5,10 @@ main {
   font-family: 'Montserrat', sans-serif;
 }
 
+.baby-reg, .email-button {
+  text-decoration: none;
+}
+
 h1 {
  font-size: 60px;
  text-decoration: underline;
@@ -23,9 +27,16 @@ h2 {
 
 /* slideshow */
 
-.slideshow {
-  height: 50px;
-  width: 50px;
+#slideshow-center {
+  position: relative;
+  align-content: center;
+  margin: 45px auto;
+  height: 250px;
+  width: 250px;
+}
+
+.captions {
+  text-align: center;
 }
 
 [data-component="slideshow"] .slide {
