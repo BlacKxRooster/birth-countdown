@@ -9,6 +9,12 @@ main {
   text-decoration: none;
 }
 
+.top-of-page {
+  background-image: url("/img/hearts.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
 h1 {
  font-size: 60px;
  text-decoration: underline;
@@ -16,6 +22,10 @@ h1 {
 
 h2 {
   text-decoration: underline;
+}
+
+.heading {
+  color: violet;
 }
 
 #text-center {
@@ -26,6 +36,10 @@ h2 {
 
 
 /* slideshow */
+
+.slide {
+  border-radius: 20px;
+}
 
 #slideshow-center {
   position: relative;
