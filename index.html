@@ -3,31 +3,28 @@
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" text="type/css" href="css/styles.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" text="type/css" href="css/bootstrap.css">
   <link rel="stylesheet" text="type/css" href="css/bootstrap.min.css">
+  <link rel="stylesheet" text="type/css" href="css/styles.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
-
-  <title>Baby tracker</title>
+  <title>Baby Tracker</title>
 </head>
-
-
-<main>
-
-    <body>
+<body class="main">
+  <header>
   <div id="text-center" class="top-of-page black-layer">
     <h1 class="heading">Follow along with us!</h1>
-      <ul class="heading-list" >
+      <ul class="heading-list" id="nav-bar" >
         <li class="baby-reg"><a href="https://www.amazon.com/baby-reg/2SBSGXCG8OTE2" target="_blank">Baby registry</a></li>
         <li class="email-button"><a href="mailto:cehanson95@gmail.com?subject=Baby things&cc=zack_mcilwain@live.com" target="_blank">Contact us!</a></li>
         <li class="fb-link"><a href="https://www.facebook.com/CourtneyLove3" class="fa fa-facebook"></a></li>
         <li class="ig-link"><a href="https://www.instagram.com/divergentspectrum" class="fa fa-instagram"></a></li>
       </ul>
   </div>
-<!-- slideshow -->
+  </header>
+
 
 <!-- Slideshow container -->
 <div id="slideshow-center" data-component="slideshow">
@@ -49,35 +46,42 @@
 
 <!-- end slideshow -->
 
-        <!-- the timer -->
-      <div id="text-center">
-       <div id="clockdiv">
-        <h2>Harper is due in</h2>
-        <div>
-          <span class="days" id="day"></span>
-          <div class="smalltext">Days</div>
-        </div>
-        <div>
-          <span class="hours" id="hour"></span>
-          <div class="smalltext">Hours</div>
-        </div>
-        <div>
-          <span class="minutes" id="minute"></span>
-          <div class="smalltext">Minutes</div>
-        </div>
-        <div>
-          <span class="seconds" id="second"></span>
-          <div class="smalltext">Seconds</div>
-        </div>
-      </div>
+<div class="baby-shower">
+  <div class="baby-shower-title"><h2>Baby Shower Information</h2></div>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque ut sunt nisi nostrum ad obcaecati cum cumque provident minima voluptate sed vitae ducimus, maxime harum! Commodi dolores maxime corporis at? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam dolore accusantium ad repellat! Laborum exercitationem voluptate nesciunt beatae fugiat rem nihil, facere ea quae temporibus laudantium. Suscipit dolor aperiam quibusdam? 
 
-      <div><p id = 'endMsg'></p></div>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, sit tempora repudiandae tempore nobis esse maiores quod officiis quam velit odio optio eligendi a ad porro dolores! Quam, numquam facere.
+  </p>
+</div>
+<div class="maps">
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3113.0362384739283!2d-121.39238468469611!3d38.71697697959891!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809b270e4689b14b%3A0xa7c8b8519b9556e5!2s8134%20Big%20Sky%20Dr%2C%20Antelope%2C%20CA%2095843!5e0!3m2!1sen!2sus!4v1624230701467!5m2!1sen!2sus" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+</div>
+
+
+        <!-- the timer -->
+<div id="text-center">
+  <div id="clockdiv">
+    <h2>Harper is due in</h2>
+    <div>
+      <span class="days" id="day"></span>
+      <div class="smalltext">Days</div>
     </div>
+    <div>
+      <span class="hours" id="hour"></span>
+      <div class="smalltext">Hours</div>
+    </div>
+    <div>
+      <span class="minutes" id="minute"></span>
+      <div class="smalltext">Minutes</div>
+    </div>
+    <div>
+      <span class="seconds" id="second"></span>
+      <div class="smalltext">Seconds</div>
+    </div>
+</div>
+    <div><p id = 'endMsg'></p></div>
+</div>
 
     <script src="js/script.js"></script>
-    <script id="__bs_script__">//<![CDATA[
-      document.write("<script async src='http://HOST:3000/browser-sync/browser-sync-client.js?v=2.26.14'><\/script>".replace("HOST", location.hostname));
-  //]]></script>
-    </body>    
-  </main>
+</body>  
 </html>
