@@ -56,7 +56,7 @@ img {
 .baby-shower {
   font-size: 18px;
   margin: 100px;
-  line-height: 25px;
+  line-height: 45px;
 }
 
 .baby-shower-title {
@@ -64,16 +64,13 @@ img {
   text-align: center;
   border: 5px solid black;
   border-radius: 100px 100px 0 0;
+  margin-bottom: 30px;
 }
 
 .maps {
   position: relative;
   text-align: center;
   margin-top: -55px;
-}
-
-.iframe {
-  border: 4px solid hotpink;
 }
 
 #nav-bar {
