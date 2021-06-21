@@ -12,6 +12,8 @@ header {
   background-image: url("/img/hearts.jpg");
   height: 150px;
   margin-top: -20px;
+  background-repeat:no-repeat;
+  background-size: cover;
 }
 
 img { 
@@ -54,12 +56,20 @@ img {
 }
 
 .baby-shower {
-  font-size: 18px;
+  font-size: 28px;
   margin: 100px;
   line-height: 45px;
 }
 
+.shower-info {
+  text-align: center;
+}
+
 .baby-shower-title {
+  background-image: url("/img/flowers.png");
+  background-color: rgba(0, 0, 0, 0.45);
+  background-repeat:no-repeat;
+  background-size: cover;
   position: relative;
   text-align: center;
   border: 5px solid black;
@@ -69,8 +79,16 @@ img {
 
 .maps {
   position: relative;
+  float: right;
   text-align: center;
   margin-top: -55px;
+  margin-right: 45px;
+}
+
+.raffle-area {
+  position: relative;
+  top: -20px;
+  margin-left: 45px;
 }
 
 #nav-bar {
@@ -106,7 +124,14 @@ img {
 }
 
 /* For the countdown */
+.counter {
+  position: relative;
+  text-align: center;
+}
+
 #clockdiv {
+  position: relative;
+  margin: auto;
   font-family: sans-serif;
   color: rgb(255, 255, 255);
   display: inline-block;
@@ -165,4 +190,10 @@ ul, .heading-list, li {
 a {
   text-decoration: none !important;
   color: white !important;
+}
+
+footer {
+  position: relative;
+  float: right;
+  margin-right: 5px;
 }
