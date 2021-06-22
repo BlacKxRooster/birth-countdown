@@ -10,7 +10,7 @@
   }
   
   header {
-    background-image: url("/img/hearts.jpg");
+    background-image: url("img/hearts.jpg");
     height: 150px;
     margin-top: -20px;
     background-repeat: no-repeat;
@@ -78,7 +78,7 @@
   }
   
   .baby-shower-title {
-    background-image: url("/img/flowers.png");
+    background-image: url("img/flowers.png");
     background-color: rgba(0, 0, 0, 0.55);
     background-repeat:no-repeat;
     background-size: cover;
