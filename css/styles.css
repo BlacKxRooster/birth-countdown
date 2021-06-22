@@ -1,3 +1,204 @@
+.main{
+  background-color: lightcoral;
+}
+
+h1 {
+  color: white;
+  position: relative;
+  text-align: center;
+}
+
+header {
+  background-image: url("/img/hearts.jpg");
+  height: 150px;
+  margin-top: -20px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+img { 
+  border-radius: 10px;
+}
+
+.baby-reg {
+  border: 3px solid palevioletred;
+  position: relative;
+  float: left;
+  margin-left: 25px;
+  font-size: 1.25em;
+}
+
+.email-button {
+  border: 3px solid palevioletred;
+  position: relative;
+  float: left;
+  margin-left: 25px;
+  font-size: 1.25em;
+}
+
+.fb-link {
+  position: relative;
+  float: right;
+  margin-right: 25px;
+  font-size: 1.25em;
+}
+
+.ig-link {
+  position: relative;
+  float: right;
+  margin-right: 25px;
+  font-size: 1.25em;
+}
+
+.captions {
+  color: white;
+  font-size: 16px;
+}
+
+.baby-shower {
+  font-size: 28px;
+  margin: 100px;
+  line-height: 45px;
+}
+
+.shower-info {
+  text-align: center;
+}
+
+.baby-shower-title {
+  background-image: url("/img/flowers.png");
+  background-color: rgba(0, 0, 0, 0.45);
+  background-repeat:no-repeat;
+  background-size: cover;
+  position: relative;
+  text-align: center;
+  border: 5px solid black;
+  border-radius: 100px 100px 0 0;
+  margin-bottom: 30px;
+}
+
+.maps {
+  position: relative;
+  float: right;
+  text-align: center;
+  margin-top: -55px;
+  margin-right: 45px;
+}
+
+.raffle-area {
+  position: relative;
+  top: -20px;
+  margin-left: 45px;
+}
+
+#nav-bar {
+  font-size: 22px;
+}
+
+#text-center {
+  text-align: center;
+}
+
+/* slideshow */
+
+#slideshow-center {
+  position: relative;
+  align-content: center;
+  margin: 45px auto;
+  height: 250px;
+  width: 250px;
+}
+
+.captions {
+  text-align: center;
+}
+
+[data-component="slideshow"] .slide {
+  display: none;
+}
+
+[data-component="slideshow"] .slide.active {
+  display: block;
+}
+
+/* For the countdown */
+.counter {
+  position: relative;
+  text-align: center;
+}
+
+#clockdiv {
+  /* position: relative; */
+  margin: auto;
+  font-family: sans-serif;
+  color: rgb(255, 255, 255);
+  display: inline-block;
+  font-weight: 100;
+  /* text-align: center; */
+  font-size: 30px;
+}
+
+#clockdiv > div {
+  padding: 10px;
+  border-radius: 3px;
+  background: lightcoral;
+  display: inline-block;
+}
+
+#clockdiv div > span {
+  padding: 15px;
+  border-radius: 3px;
+  background: lightpink;
+  display: inline-block;
+  text-align: center;
+}
+
+
+.smalltext {
+  padding-top: 5px;
+  font-size: 16px;
+  color: black;
+}
+
+/* end countdown */
+
+ul, .heading-list, li {
+  list-style: none;
+  display: inline;
+  padding-inline: 15px;
+}
+
+
+/* Social Media area */
+
+.fa-facebook {
+  /* background: #3B5998; */
+  color: #3B5998;
+}
+
+.fa {
+  padding: 20px;
+  border-radius: 50%;
+  font-size: 30px;
+  width: 40px;
+  text-align: center;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none !important;
+  color: white !important;
+}
+
+footer {
+  position: relative;
+  float: right;
+  margin-right: 5px;
+}
+
+
+
+
 @media (max-width: 575px) {
   .main{
     background-color: lightcoral;
@@ -10,7 +211,7 @@
   }
   
   header {
-    background-image: url("img/hearts.jpg");
+    background-image: url("/img/hearts.jpg");
     height: 150px;
     margin-top: -20px;
     background-repeat: no-repeat;
@@ -78,7 +279,7 @@
   }
   
   .baby-shower-title {
-    background-image: url("img/flowers.png");
+    background-image: url("/img/flowers.png");
     background-color: rgba(0, 0, 0, 0.55);
     background-repeat:no-repeat;
     background-size: cover;
