@@ -15,14 +15,14 @@
 
 
 <body class="main">
-  <header>
+  <header class="header">
   <div id="text-center" class="top-of-page">
     <h1 class="heading">Follow along with us!</h1>
       <ul class="heading-list" id="nav-bar" >
         <li><a class="nav-link" href="https://www.amazon.com/baby-reg/2SBSGXCG8OTE2" target="_blank">Baby registry</a></li>
         <li><a class="nav-link" href="mailto:cehanson95@gmail.com?subject=Baby things&cc=zack_mcilwain@live.com" target="_blank">Contact us!</a></li>
-        <li class="social-link"><a href="https://www.facebook.com/CourtneyLove3" class="fa fa-facebook"></a></li>
-        <li class="social-link"><a href="https://www.instagram.com/divergentspectrum" class="fa fa-instagram"></a></li>
+        <li><a id="social-link"< href="https://www.facebook.com/CourtneyLove3" class="fa fa-facebook"></a></li>
+        <li><a id="social-link"< href="https://www.instagram.com/divergentspectrum" class="fa fa-instagram"></a></li>
       </ul>
   </div>
   </header>
@@ -70,34 +70,37 @@
 
 
         <!-- the timer -->
-<div class="counter">
-  <div id="clockdiv">
-    <h2>Harper is due in</h2>
-    <div>
-      <span class="days" id="day"></span>
-      <div class="smalltext">Days</div>
+<div class="bottom-of-page">
+  <div class="counter">
+    <div id="clockdiv">
+      <h2>Harper is due in</h2>
+      <div>
+        <span class="days" id="day"></span>
+        <div class="smalltext">Days</div>
+      </div>
+      <div>
+        <span class="hours" id="hour"></span>
+        <div class="smalltext">Hours</div>
+      </div>
+      <div>
+        <span class="minutes" id="minute"></span>
+        <div class="smalltext">Minutes</div>
+      </div>
+      <div>
+        <span class="seconds" id="second"></span>
+        <div class="smalltext">Seconds</div>
+      </div>
+  </div>
+      <div><p id = 'endMsg'></p></div>
+  </div>
+
+
+  <footer>
+    <div class="footer">
+      <p>&copy Copyright Z. Mcilwain 2021</p>
     </div>
-    <div>
-      <span class="hours" id="hour"></span>
-      <div class="smalltext">Hours</div>
-    </div>
-    <div>
-      <span class="minutes" id="minute"></span>
-      <div class="smalltext">Minutes</div>
-    </div>
-    <div>
-      <span class="seconds" id="second"></span>
-      <div class="smalltext">Seconds</div>
-    </div>
+  </footer>
 </div>
-    <div><p id = 'endMsg'></p></div>
-</div>
-
-
-<footer>
-  <p>&copy Copyright Z. Mcilwain 2021</p>
-</footer>
-
     <script src="js/script.js"></script>
 </body>  
 </html>

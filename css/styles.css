@@ -1,16 +1,21 @@
-@media (max-width: 566px) {
+@media (max-width: 576px) {
+
+
   .main{
     background-color: lightcoral;
+    margin: auto;
+    box-sizing: border-box;
   }
 
   .top-of-page {
     color: white;
     position: relative;
     text-align: center;
-    background-image: url("/img/hearts.jpg");
+    background-image: url("../img/hearts.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     margin-top: -20px;
+    width: auto;
     height: 110px;
   }
 
@@ -30,14 +35,14 @@
     top: -20px;
   }
 
-  .social-link {
+  #social-link {
     color: white;
     text-decoration: none;
     position: relative;
     float: right;
     margin: 10px;
     font-size: 26px;
-    top: -20px;
+    top: -15px;
   }
 
   .nav-link:hover {
@@ -46,7 +51,11 @@
     position: relative;
   }
 
-
+  #social-link:hover {
+    color: white;
+    text-decoration: none;
+    position: relative;
+  }
 
   .baby-shower {
     border: 2px solid black;
@@ -58,12 +67,12 @@
   .raffle-area {
     position: relative;
     text-align: center;
-    margin: 40px 0 40px 0;
-    transform: rotate(20deg);
+    margin: 40px;
+    transform: rotate(12deg);
   }
 
   .raffle-area:hover {
-    transform: rotate(-20deg);
+    transform: rotate(-9deg);
   }
 
   .maps {
@@ -83,11 +92,13 @@
   }
 
   .ultra-sounds {
+    border: 4px palevioletred inset;
     border-radius: 50px;
   }
 
   .captions {
     text-align: center;
+    color: white;
   }
 
   [data-component="slideshow"] .slide {
@@ -103,6 +114,10 @@
     position: relative;
     text-align: center;
     margin-top: 60px;
+  }
+
+  .bottom-of-page {
+    background-color: rgba(0, 0, 0, 0.45);
   }
 
   #clockdiv {
@@ -139,6 +154,18 @@
   }
 
 /* end countdown */
+
+  .header {
+    margin: auto;
+    width: auto;
+  }
+
+  .footer {
+    color: white;
+    margin: auto;
+  }
+
+
 }
 
 
