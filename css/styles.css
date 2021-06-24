@@ -1,3 +1,7 @@
+* {
+  font-family: 'Patrick Hand', cursive;
+}
+
 @media (max-width: 576px) {
 
 
@@ -244,16 +248,42 @@
   }
 
   .baby-shower {
-    border: 2px solid black;
+    background-color: rgba(0, 0, 0, 0.45);
+    color: rgb(230,230,250);
+    border: 2px solid rgb(230,230,250);
     border-radius: 100px;
+    font-size: 18px;
     text-align: center;
     margin: 0 15px 0 15px;
+  }
+
+  .baby-shower-title > h2 {
+    text-decoration: underline;
+    font-size: 42px;
+  }
+
+  .book-for-baby {
+    position: relative;
+    top: 60px;
+    color: rgb(230,230,250);
+    background-color: rgba(0, 0, 0, 0.45);
+    border: 2px solid rgb(230,230,250);
+    border-radius: 100px;
+    text-align: center;
+    font-size: 18px;
+    margin: 0 15px 0 15px;
+  }
+
+  .book-for-baby > h2 {
+    text-decoration: underline;
+    font-size: 42px;
   }
 
   .raffle-area {
     position: relative;
     text-align: center;
     margin: 40px;
+    top: 100px;
     transform: rotate(12deg);
   }
 
@@ -264,7 +294,7 @@
   .maps {
     position: relative;
     text-align: center;
-    top: 45px;
+    top: 100px;
   }
 
 /* Slide-show area   */
@@ -352,15 +382,63 @@
     width: auto;
   }
 
-  .footer {
+  footer {
+    margin-top: 145px;
     color: rgb(230,230,250);
-    margin: auto;
   }
 
 }
 
 /* Medium devices (tablets, 768px and up) */
-/* @media (min-width: 768px) { ... } */
+@media (min-width: 768px) {
+  .main{
+    background-color: lightcoral;
+    margin: auto;
+    box-sizing: border-box;
+  }
+
+  .maps {
+    position: relative;
+    text-align: right;
+    margin-right: 40px;
+    top: 45px;
+  }
+
+  .raffle-area {
+    position: relative;
+    text-align: left;
+    top: 350px;
+    margin: 40px;
+    transform: rotate(12deg);
+  }
+
+  .raffle-area:hover {
+    transform: rotate(-9deg);
+  }
+
+  .book-for-baby {
+    position: relative;
+    top: 100px;
+    color: rgb(230,230,250);
+    background-color: rgba(0, 0, 0, 0.45);
+    border: 2px solid rgb(230,230,250);
+    border-radius: 100px;
+    text-align: center;
+    font-size: 18px;
+    margin: 0 15px 0 15px;
+  }
+
+  .book-for-baby > h2 {
+    text-decoration: underline;
+    font-size: 42px;
+  }
+
+  .baby-shower-title > h2 {
+    text-decoration: underline;
+    font-size: 42px;
+  }
+
+}
 
 /* Large devices (desktops, 992px and up) */
 /* @media (min-width: 992px) { ... } */
