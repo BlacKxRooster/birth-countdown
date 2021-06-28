@@ -503,8 +503,8 @@
   
   .poloroid {
     position:absolute;
-    margin:0;
-    padding:0;
+    margin: 40px;
+    padding: 15px;
   }
   
   .photo-page {
@@ -526,6 +526,9 @@
   .photo-page:hover{
     top:0px;
     opacity:0.5;
+    height: 300px;
+    width: 300px;
+    z-index: 1;
   }
   
   .photo-page:nth-child(1){
@@ -560,11 +563,9 @@
   transform:rotate(-20deg);
 }
   
-  p{
-    margin:-15px 0 0 0;
-  }
+
   
-  .light{
+  /* .light {
     border-radius:50%;
     position:absolute;
     left:0;
@@ -575,7 +576,7 @@
     filter:blur(100px);
     opacity:0.3;
     pointer-events:none;
-  }
+  } */
 
 }
 
