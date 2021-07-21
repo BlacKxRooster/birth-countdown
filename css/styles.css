@@ -162,7 +162,6 @@
   #clockdiv {
     /* position: relative; */
     margin: auto;
-    font-family: sans-serif;
     color: rgb(250,250,250);
     display: inline-block;
     font-weight: 100;
@@ -225,9 +224,9 @@
   box-sizing: border-box;
 }
 
-.poloroid {
+.polaroid {
   text-align: center;
-  position: absolute;
+  position: relative;
   margin: 40px;
   padding: 15px;
 }
@@ -257,19 +256,19 @@
 }
 
 .photo-page:nth-child(1) {
-    transform:rotate(10deg);
+  transform:rotate(10deg);
 }
 
 .photo-page:nth-child(2) {
-    transform:rotate(-12deg);
+  transform:rotate(-12deg);
 }
 
 .photo-page:nth-child(3) {
-    transform:rotate(16deg);
+  transform:rotate(16deg);
 }
 
 .photo-page:nth-child(4) {
-    transform:rotate(-7deg);
+  transform:rotate(-7deg);
 }
 
 .photo-page:nth-child(5) {
@@ -277,15 +276,15 @@
 }
 
 .photo-page:nth-child(6) {
-transform:rotate(-11deg);
+  transform:rotate(-11deg);
 }
 
 .photo-page:nth-child(7) {
-transform:rotate(17deg);
+  transform:rotate(17deg);
 }
 
 .photo-page:nth-child(8) {
-transform:rotate(-20deg);
+  transform:rotate(-20deg);
 }
 
 
@@ -394,11 +393,11 @@ transform:rotate(-20deg);
     text-align: center;
     margin: 40px;
     top: 100px;
-    transform: rotate(12deg);
+    /* transform: rotate(12deg); */
   }
 
   .raffle-area:hover {
-    transform: rotate(-9deg);
+    /* transform: rotate(-9deg); */
   }
 
   .maps {
@@ -449,7 +448,6 @@ transform:rotate(-20deg);
   #clockdiv {
     /* position: relative; */
     margin: auto;
-    font-family: sans-serif;
     color: rgb(250,250,250);
     display: inline-block;
     font-weight: 100;
@@ -501,7 +499,7 @@ transform:rotate(-20deg);
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-  .main{
+  .main {
     background-color: lightcoral;
     margin: auto;
     box-sizing: border-box;
@@ -520,10 +518,6 @@ transform:rotate(-20deg);
     top: 350px;
     margin: 40px;
     transform: rotate(12deg);
-  }
-
-  .raffle-area:hover {
-    transform: rotate(-9deg);
   }
 
   .book-for-baby {
@@ -585,18 +579,18 @@ transform:rotate(-20deg);
     position: relative;
     border: solid 12px #fff;
     background: #fff;
-    box-shadow: 0 0 15px 0px #555;
+    box-shadow: 0 0 15px 0px rgb(255, 255, 255);
     transition: all 1s ease;
     -o-transition: all 1s ease;
     -moz-transition: all 1s ease;
     -webkit-transition: all 1s ease;
     top: 50px;
+    opacity: 0.75;
   }
   
   
   .photo-page:hover{
-    top: 0px;
-    opacity: 0.5;
+    opacity: 1;
     height: 300px;
     width: 300px;
     z-index: 2;
@@ -652,4 +646,51 @@ transform:rotate(-20deg);
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
-/* @media (min-width: 1200px) { ... } */
+@media (min-width: 1200px) {
+  .main {
+    background-color: lightcoral;
+    margin: auto;
+    box-sizing: border-box;
+  }
+
+  .maps {
+    position: relative;
+    text-align: right;
+    margin-right: 40px;
+    top: 45px;
+  }
+
+  .raffle-area {
+    position: relative;
+    text-align: left;
+    top: 350px;
+    margin: 40px;
+    /* transform: rotate(12deg); */
+  }
+
+  .raffle-area:hover {
+    /* transform: rotate(-9deg); */
+  }
+
+  .book-for-baby {
+    position: relative;
+    top: 100px;
+    color: rgb(230,230,250);
+    background-color: rgba(0, 0, 0, 0.45);
+    border: 2px solid rgb(230,230,250);
+    border-radius: 100px;
+    text-align: center;
+    font-size: 18px;
+    margin: 0 15px 0 15px;
+  }
+
+  .book-info > h2 {
+    text-decoration: underline;
+    font-size: 42px;
+  }
+
+  .baby-shower-title > h2 {
+    text-decoration: underline;
+    font-size: 42px;
+  }
+}
