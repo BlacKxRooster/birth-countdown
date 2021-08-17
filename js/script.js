@@ -9,10 +9,10 @@ var days = Math.floor(t / (1000 * 60 * 60 * 24));
 var hours = Math.floor((t % (1000 * 60 * 60 * 24))/(1000 * 60 * 60));
 var minutes = Math.floor((t % (1000 * 60 * 60)) / (1000 * 60));
 var seconds = Math.floor((t % (1000 * 60)) / 1000);
-document.getElementById("day").innerHTML =days ;
-document.getElementById("hour").innerHTML =hours;
+document.getElementById("day").innerHTML = days;
+document.getElementById("hour").innerHTML = hours;
 document.getElementById("minute").innerHTML = minutes; 
-document.getElementById("second").innerHTML =seconds; 
+document.getElementById("second").innerHTML = seconds; 
 if (t < 0) {
         clearInterval(x);
         document.getElementById("endMsg").innerHTML = "SHE'S HERE!";
